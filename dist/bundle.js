@@ -38,7 +38,7 @@ eval("\n\n__webpack_require__(/*! core-js/es6 */ \"../node_modules/core-js/es6/i
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_authorization_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/authorization.scss */ \"./styles/authorization.scss\");\n\n //Перенос фотографий в папку dist\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -3170,69 +3170,25 @@ eval("__webpack_require__(/*! ../modules/web.timers */ \"../node_modules/core-js
 
 /***/ }),
 
-/***/ "./images/top-banner/banner-background.jpg":
-/*!*************************************************!*\
-  !*** ./images/top-banner/banner-background.jpg ***!
-  \*************************************************/
+/***/ "./images/background.jpg":
+/*!*******************************!*\
+  !*** ./images/background.jpg ***!
+  \*******************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/banner-background.jpg\");\n\n//# sourceURL=webpack:///./images/top-banner/banner-background.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/background.jpg\");\n\n//# sourceURL=webpack:///./images/background.jpg?");
 
 /***/ }),
 
-/***/ "./images/top-banner/banner-bg.jpg":
-/*!*****************************************!*\
-  !*** ./images/top-banner/banner-bg.jpg ***!
-  \*****************************************/
+/***/ "./styles/authorization.scss":
+/*!***********************************!*\
+  !*** ./styles/authorization.scss ***!
+  \***********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/banner-bg.jpg\");\n\n//# sourceURL=webpack:///./images/top-banner/banner-bg.jpg?");
-
-/***/ }),
-
-/***/ "./images/top-banner/banner-main-img.jpg":
-/*!***********************************************!*\
-  !*** ./images/top-banner/banner-main-img.jpg ***!
-  \***********************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/banner-main-img.jpg\");\n\n//# sourceURL=webpack:///./images/top-banner/banner-main-img.jpg?");
-
-/***/ }),
-
-/***/ "./images/top-banner/guarantee-icon.png":
-/*!**********************************************!*\
-  !*** ./images/top-banner/guarantee-icon.png ***!
-  \**********************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/guarantee-icon.png\");\n\n//# sourceURL=webpack:///./images/top-banner/guarantee-icon.png?");
-
-/***/ }),
-
-/***/ "./images/top-banner/tools_icon.png":
-/*!******************************************!*\
-  !*** ./images/top-banner/tools_icon.png ***!
-  \******************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/tools_icon.png\");\n\n//# sourceURL=webpack:///./images/top-banner/tools_icon.png?");
-
-/***/ }),
-
-/***/ "./images/top-banner/truck_icon.png":
-/*!******************************************!*\
-  !*** ./images/top-banner/truck_icon.png ***!
-  \******************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/top-banner/truck_icon.png\");\n\n//# sourceURL=webpack:///./images/top-banner/truck_icon.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/authorization.scss?");
 
 /***/ }),
 
@@ -3263,7 +3219,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
   \*******************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./top-banner/banner-background.jpg\": \"./images/top-banner/banner-background.jpg\",\n\t\"./top-banner/banner-bg.jpg\": \"./images/top-banner/banner-bg.jpg\",\n\t\"./top-banner/banner-main-img.jpg\": \"./images/top-banner/banner-main-img.jpg\",\n\t\"./top-banner/guarantee-icon.png\": \"./images/top-banner/guarantee-icon.png\",\n\t\"./top-banner/tools_icon.png\": \"./images/top-banner/tools_icon.png\",\n\t\"./top-banner/truck_icon.png\": \"./images/top-banner/truck_icon.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
+eval("var map = {\n\t\"./background.jpg\": \"./images/background.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
 
 /***/ })
 

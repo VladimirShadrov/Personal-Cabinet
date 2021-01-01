@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Личный кабинет</title>
 <link href="styles.css" rel="stylesheet"></head>
+
 <body>
-  
+  <section class="authorisation">
+    <div class="container">
+      <div class="form__wrapper">
+        <h1 class="authorisation__title">
+          Вход в личный кабинет
+        </h1>
+        <form class="form">
+          <div class="form__container">
+            <input class="form__item" type="text" required>
+            <i class="fas fa-user"></i>
+            <label class="form__label">Ваш логин</label>
+            <span class="form__border"></span>
+          </div>
+          <div class="form__container">
+            <input class="form__item" type="password" required>
+            <i class="fas fa-lock"></i>
+            <label class="form__label">Ваш пароль</label>
+            <span class="form__border"></span>
+          </div>
+          <input class="form__submit" type="submit" value="Войти">
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="https://kit.fontawesome.com/5249921177.js" crossorigin="anonymous"></script>
 <script src="bundle.js"></script></body>
+
 </html>
