@@ -38,7 +38,7 @@ eval("\n\n__webpack_require__(/*! core-js/es6 */ \"../node_modules/core-js/es6/i
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_authorization_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/authorization.scss */ \"./styles/authorization.scss\");\n\n //Перенос фотографий в папку dist\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/styles.scss */ \"./styles/styles.scss\");\n/* harmony import */ var _styles_authorization_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/authorization.scss */ \"./styles/authorization.scss\");\n/* harmony import */ var _styles_cabinet_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/cabinet.scss */ \"./styles/cabinet.scss\");\n\n\n //Перенос фотографий в папку dist\n\n__webpack_require__(\"./images sync recursive \\\\.(png|jpg|svg|gif)$\");\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -3181,6 +3181,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./images/man.png":
+/*!************************!*\
+  !*** ./images/man.png ***!
+  \************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/man.png\");\n\n//# sourceURL=webpack:///./images/man.png?");
+
+/***/ }),
+
+/***/ "./images/woman.png":
+/*!**************************!*\
+  !*** ./images/woman.png ***!
+  \**************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/woman.png\");\n\n//# sourceURL=webpack:///./images/woman.png?");
+
+/***/ }),
+
 /***/ "./styles/authorization.scss":
 /*!***********************************!*\
   !*** ./styles/authorization.scss ***!
@@ -3189,6 +3211,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/authorization.scss?");
+
+/***/ }),
+
+/***/ "./styles/cabinet.scss":
+/*!*****************************!*\
+  !*** ./styles/cabinet.scss ***!
+  \*****************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles/cabinet.scss?");
 
 /***/ }),
 
@@ -3219,7 +3252,7 @@ eval("/**\n * Copyright (c) 2014-present, Facebook, Inc.\n *\n * This source cod
   \*******************************************/
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./background.jpg\": \"./images/background.jpg\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
+eval("var map = {\n\t\"./background.jpg\": \"./images/background.jpg\",\n\t\"./man.png\": \"./images/man.png\",\n\t\"./woman.png\": \"./images/woman.png\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./images sync recursive \\\\.(png|jpg|svg|gif)$\";\n\n//# sourceURL=webpack:///./images/_sync_\\.(png%7Cjpg%7Csvg%7Cgif)$?");
 
 /***/ })
 

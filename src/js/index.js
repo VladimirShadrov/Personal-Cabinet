@@ -1,5 +1,6 @@
 import '../styles/styles.scss';
 import '../styles/authorization.scss';
+import '../styles/cabinet.scss';
 
 
 //Перенос фотографий в папку dist
