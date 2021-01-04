@@ -1,7 +1,7 @@
 @import './styles.scss';
 
 .cabinet {
-  background-color: rgb(190, 190, 190);
+  background-color: rgba(140, 140, 140, 0.2);
   width: 100%;
   height: 100vh;
 
@@ -59,22 +59,22 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 25px 0;
+  padding: 35px 0;
 
   &__search-box {
     position: relative;
     width: 74%;
+
   }
+  
 
   &__search {
     width: 100%;
     height: 100%;
     padding: 10px 55px 10px 20px;
     border-radius: 25px;
-    border: none;
     outline: none;
     font-size: 20px;
-    
   }
 
   &__btn {
@@ -123,6 +123,140 @@
     }
   }
 }
+
+.contacts {
+  width: 100%;
+  height: 40vh;
+  // max-height: 500px;
+  overflow-y: scroll;
+  border: 1px solid $grey;
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    width: 5px; 
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $grey;
+}
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-bottom: 1px solid $grey;
+    transition: 0.3s;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 4px;
+      height: 0;
+      background-color: royalblue;
+      transition: 0.3s;
+    }
+
+    &:hover {
+      background-color: $white;
+    }
+
+    &:hover::before {
+      height: 100%;
+    }
+  }
+
+  &__person-info {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  &__img {
+    width: 64px;
+    height: 64px;
+    border: 1px solid $grey;
+    border-radius: 50%;
+    background-color: $white;
+    overflow: hidden;
+  }
+
+  &__img > img {
+    width: 100%;
+    height: 105%;
+  }
+
+  &__contacts {
+    padding-left: 15px;
+  }
+
+  &__name,
+  &__email {
+    padding: 3px 0;
+  }
+
+  &__name > a, &__email > a {
+    text-decoration: none;
+    transition: 0.2s;
+    font-weight: bold;
+  }
+  
+  &__name > a {
+    font-size: 18px;
+    color: #000;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  &__email > a {
+    color: $grey;
+    font-size: 16px;
+
+    &:hover {
+      color: royalblue;
+    }
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+  }
+
+  &__redact,
+  &__delete {
+    width: 25px;
+    height: 25px;
+    font-size: 23px;
+    color: $grey;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  &__redact > i,
+  &__delete > i {
+    pointer-events: none;
+  }
+
+  &__redact {
+    margin-right: 20px;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  &__delete:hover {
+    color: red;
+  }
+}
+
 
 @media (max-width: 670px) {
   .control__search-box,
