@@ -13,6 +13,12 @@
     background-color: rgb(50, 50, 50);
   }
 
+  &__title {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
 }
 
 .user {
@@ -35,9 +41,8 @@
     overflow: hidden;
     
     & > img {
-      display: block;
-      margin: 0 auto;
       width: 100%;
+      margin-top: 6px;
     }
   }
 
@@ -175,11 +180,14 @@
     display: flex;
     align-items: center;
     padding: 10px 0;
+    width: 80%;
   }
 
   &__img {
-    width: 64px;
-    height: 64px;
+    max-width: 64px;
+    min-width: 64px;
+    max-height: 64px;
+    max-height: 64px;
     border: 1px solid $grey;
     border-radius: 50%;
     background-color: $white;
@@ -188,7 +196,7 @@
 
   &__img > img {
     width: 100%;
-    height: 105%;
+    margin-top: 2px;
   }
 
   &__contacts {
@@ -227,6 +235,8 @@
   &__controls {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+    width: 20%;
   }
 
   &__redact,
@@ -276,6 +286,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    flex-wrap: wrap;
 
   }
 
@@ -300,8 +311,8 @@
   }
   
   &__image {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: $white;
     border-radius: 50%;
     overflow: hidden;
@@ -309,7 +320,7 @@
 
   &__image > img {
     width: 100%;
-    height: 105%;
+    margin-top: 7px;
   }
 
   &__info-wrapper {
@@ -353,6 +364,19 @@
   z-index: 1;
 }
 
+@media (max-width: 800px) {
+  .card__img {
+    width: 100%;
+  }
+
+  .card__image {
+    margin: 0 auto;
+  }
+
+  .card__info-wrapper {
+    width: 50%;
+  }
+}
 
 @media (max-width: 670px) {
   .control__search-box,
@@ -362,5 +386,35 @@
 
   .control__add-user {
     margin-top: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .contacts__contacts {
+    padding-left: 7px;
+  }
+
+  .contacts__name > a,
+  .contacts__email > a {
+    font-size: 14px;
+  }
+
+  .contacts__redact,
+  .contacts__delete {
+    font-size: 16px;
+  }
+
+  .contacts__redact {
+    margin-right: 5px;
+  }
+
+  .card__info-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  .card__info > p {
+    display: inline-block;
+    font-size: 16px;
   }
 }
