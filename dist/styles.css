@@ -733,7 +733,7 @@ body {
   -o-transition: 0.3s;
   transition: 0.3s; }
 
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   .modal__field {
     width: 100%;
     padding: 0; } }

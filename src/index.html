@@ -181,7 +181,7 @@
     <!-- //Ошибка авторизации  -->
 
     <!--  Добавить нового пользователя  -->
-    <div class="overlay">
+    <div class="overlay hide">
       <div class="modal__window">
         <span class="modal__close" title="Закрыть">+</span>
         <div class="modal__content">
@@ -192,43 +192,42 @@
             <div class="modal__fields-container">
               <div class="modal__field">
                 <div class="modal__field-item">
-                  <input class="modal__text" type="text" required >
+                  <input class="modal__text" type="text" required>
                   <label class="modal__label">Фамилия пользователя</label>
                   <span class="modal__input-border"></span>
                 </div>
                 <div class="modal__field-item">
-                  <input class="modal__text" type="text" required >
+                  <input class="modal__text" type="text" required>
                   <label class="modal__label">Имя пользователя</label>
                   <span class="modal__input-border"></span>
                 </div>
                 <div class="modal__field-item">
-                  <input class="modal__text" type="text" required >
+                  <input class="modal__text" type="text" required>
                   <label class="modal__label">Никнейм пользователя</label>
                   <span class="modal__input-border"></span>
                 </div>
                 <div class="modal__field-item">
-                  <input class="modal__text" type="text" required >
+                  <input class="modal__text" type="text" required>
                   <label class="modal__label">Мужчина или женщина</label>
                   <span class="modal__input-border"></span>
                 </div>
-
               </div>
               <div class="modal__field">
-                  <div class="modal__field-item">
-                    <input class="modal__text" type="text" required>
-                    <label class="modal__label">email пользователя</label>
-                    <span class="modal__input-border"></span>
-                  </div>
-                  <div class="modal__field-item">
-                    <input class="modal__text" type="text" required>
-                    <label class="modal__label">Логин пользователя</label>
-                    <span class="modal__input-border"></span>
-                  </div>
-                  <div class="modal__field-item">
-                    <input class="modal__text" type="text" required>
-                    <label class="modal__label">Пароль пользователя</label>
-                    <span class="modal__input-border"></span>
-                  </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">email пользователя</label>
+                  <span class="modal__input-border"></span>
+                </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Логин пользователя</label>
+                  <span class="modal__input-border"></span>
+                </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Пароль пользователя</label>
+                  <span class="modal__input-border"></span>
+                </div>
               </div>
             </div>
           </div>
@@ -240,14 +239,74 @@
               Отмена
             </button>
           </div>
-
-
         </div>
       </div>
     </div>
-
-
     <!--  Добавить нового пользователя  -->
+
+    <!--  Редактировать данные пользователя  -->
+    <div class="overlay hide">
+      <div class="modal__window">
+        <span class="modal__close">+</span>
+        <div class="modal__content">
+          <div class="modal__body">
+            <span class="modal__message">
+              Редактировать данные пользователя
+            </span>
+            <div class="modal__fields-container">
+              <div class="modal__field">
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Редактировать фамилию</label>
+                  <span class="modal__input-border"></span>
+                </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Редактировать имя</label>
+                  <span class="modal__input-border"></span>
+                </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Редактировать никнэйм</label>
+                  <span class="modal__input-border"></span>
+                </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Мужчина или женщина</label>
+                  <span class="modal__input-border"></span>
+                </div>
+              </div>
+              <div class="modal__field">
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Редактировать email</label>
+                  <span class="modal__input-border"></span>
+                </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Редактировать логин</label>
+                  <span class="modal__input-border"></span>
+                </div>
+                <div class="modal__field-item">
+                  <input class="modal__text" type="text" required>
+                  <label class="modal__label">Редактировать пароль</label>
+                  <span class="modal__input-border"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal__buttons">
+            <button class="modal__btn-add">
+              Сохранить
+            </button>
+            <button class="modal__btn-cancel">
+              Отмена
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  //Редактировать данные пользователя  -->
 
   </div>
 
