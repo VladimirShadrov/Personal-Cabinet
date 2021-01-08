@@ -49,6 +49,7 @@
   &__name {
     align-self: stretch;
     padding-left: 15px;
+    padding-right: 15px;
     max-width: 250px;
   }
 
@@ -61,6 +62,17 @@
   &__nickname {
     color: $grey;
     font-weight: normal;
+  }
+
+  &__exit {
+    width: 40px;
+    height: 40px;
+    color: $white;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
   }
 }
 

@@ -58,6 +58,9 @@
                 </span>
               </p>
             </div>
+            <button class="user__exit" title="Выйти из личного кабинета" data-name="exit">
+              <i class="fas fa-sign-out-alt"></i>
+            </button>
           </div>
         </div>
       </div>
@@ -67,11 +70,11 @@
       <div class="control">
         <div class="control__search-box">
           <input class="control__search" type="text" placeholder="Найти пользователя">
-          <button class="control__btn">
+          <button class="control__btn" data-name="search">
             <i class="fas fa-search"></i>
           </button>
         </div>
-        <button class="control__add-user">
+        <button class="control__add-user" data-name="add-user">
           Добавить пользователя
         </button>
       </div>
@@ -92,10 +95,10 @@
             </div>
           </div>
           <div class="contacts__controls">
-            <button class="contacts__redact" title="Редактировать контакт">
+            <button class="contacts__redact" title="Редактировать контакт" data-name="redact">
               <i class="fas fa-pen"></i>
             </button>
-            <button class="contacts__delete" title="Удалить контакт">
+            <button class="contacts__delete" title="Удалить контакт" data-name="delete">
               <i class="fas fa-times"></i>
             </button>
           </div>
@@ -103,7 +106,7 @@
       </div>
     </div>
 
-    <div class="contact-card">
+    <div class="contact-card ">
       <div class="overlay-cabinet">
         <div class="card">
           <div class="container">
@@ -142,7 +145,7 @@
                   <p>12345</p>
                 </div>
               </div>
-              <div class="card__close" data-id="close" title="Закрыть">
+              <div class="card__close" data-id="close" title="Закрыть" data-name="close">
                 +
               </div>
             </div>
